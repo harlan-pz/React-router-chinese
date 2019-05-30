@@ -67,7 +67,9 @@ function AppRouter() {
 export default AppRouter;
 ```
 ### 示例：嵌套路由
-这个示例向我们展示来嵌套路由如何工作，路由 '/topics'会加载Topics组件，这个组件会通过':id'的路由来渲染出更多的内容。
+这个示例向我们展示来嵌套路由如何工作，路由 '/topics'会加载Topics组件，这个组件会通过':id'的路由来渲染出更多的内容。  
+
+把下方的代码复制到demo-app里面的src目录下的App.js文件中
 ```
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
