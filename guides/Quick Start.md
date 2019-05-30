@@ -14,8 +14,6 @@ cd demo-app
 React Router Dom 已经被发布到来npm上, 所以你可以用npm或yarn来安装她。  
 ```
 npm install react-router-dom
-Copy/paste either of the examples (below) into your src/App.js.
-
 ```
 ### 示例：基础路由
 在这个例子中，我们会使用<Router>来构建一个拥有3个页面的示例。
