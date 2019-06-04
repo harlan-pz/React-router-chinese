@@ -60,3 +60,29 @@ class LongContent extends Component {
 // somewhere else
 <Route path="/long-content" component={LongContent} />;
 ```
+### 通用解决方案 
+对于通用解决方案（以及浏览器开始本地实现）我们谈论两件事：
+1. 导航跳转时自动滚动到页面顶部，这样不会出现创建一个新的页面滚动条在底部。
+2. 在前进或后退时保留原来滚动条的位置（不包含点击跳转链接）    
+
+对于第一点我们想要发布一个通用的api，这是我们想要的：
+```
+<Router>
+  <ScrollRestoration>
+    <div>
+      <h1>App</h1>
+
+      <RestoredScroll id="bunny">
+        <div style={{ height: "200px", overflow: "auto" }}>I will overflow</div>
+      </RestoredScroll>
+    </div>
+  </ScrollRestoration>
+</Router>
+```
+首先，ScrollRestoration将在导航时向上滚动窗口。 其次，它将使用location.key将窗口滚动位置和RestoredScroll组件的滚动位置保存到sessionStorage。 然后，当ScrollRestoration或RestoredScroll组件挂载时，他们可以从sessionsStorage中查找它们的位置。  
+
+对我来说棘手的是当我不希望管理窗口滚动时,如何实现一个“选择退出”API，。 例如，当你有一些浮动在页面上的选项卡导航时，你可能不希望滚动到顶部（选项卡可能会滚动到视图之外）。  
+
+当我了解到chrome现在已经在为我们管理滚动位置，并且意识到不同的应用将有不同的滚动需求时，我有点失去了做这件事的信念 - 特别是当人们只想滚动到顶部时（ 你看到的是很容易直接添加到你的应用的内容）。  
+
+基于此，我们觉得我们已经没有足够的力量来完成这项工作（就像你的时间是有限的一样）。但是，我们很乐意帮助任何愿意使用通用解决方案的人。如果你一开始就使用她，你的项目会有一个可靠的解决方案。
