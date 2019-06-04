@@ -13,7 +13,7 @@
 [基础组件](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/guides/Basic%20Components.md)  
 [服务端渲染](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/guides/Server%20Rendering.md)  
 [代码拆分](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/guides/Server%20Rendering.md)  
-滚动恢复  
+[滚动恢复](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/guides/Scroll%20Restoration.md)  
 设计思想  
 测试  
 集成Redux  
