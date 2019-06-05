@@ -14,7 +14,7 @@
 [服务端渲染](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/guides/Server%20Rendering.md)  
 [代码拆分](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/guides/Server%20Rendering.md)  
 [滚动恢复](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/guides/Scroll%20Restoration.md)  
-设计思想  
+[设计思想](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/guides/Philosophy.md)  
 测试  
 集成Redux  
 静态路由
