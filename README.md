@@ -9,7 +9,7 @@
 ## 目录
 ### 示例
 该部分全部是各种示例的代码和运行结果，除了代码的注释没有需要翻译的地方，暂时不考虑翻译，推荐直接看[官网](https://reacttraining.com/react-router/web/example/basic)
-### 导引
+### 指南
 [快速开始](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/guides/Quick%20Start.md)  
 [基础组件](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/guides/Basic%20Components.md)  
 [服务端渲染](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/guides/Server%20Rendering.md)  
