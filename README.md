@@ -21,7 +21,7 @@
 [静态路由](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/guides/Static%20Router.md)
 
 ### API文档
-
+[API文档](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md)
 
 
 
