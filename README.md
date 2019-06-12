@@ -21,7 +21,23 @@
 [静态路由](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/guides/Static%20Router.md)
 
 ### API文档
-[API文档](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md)
+[API文档](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md)  
+[BrowserRouter](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#-browserrouter-)  
+[HashRouter](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#-hashrouter-)  
+[Link](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#-link-)  
+[NavLink](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#-navlink-)  
+[Prompt](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#-prompt-)  
+[MemoryRouter](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#-memoryrouter-)  
+[Redirect](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#-redirect-)  
+[Route](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#-route-)  
+[Router](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#-router-)  
+[StaticRouter](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#-staticrouter-)  
+[Switch](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#-switch-)  
+[history](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#history)  
+[location](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#location)  
+[match](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#match)
+[matchPath](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#matchpath)    
+[withRouter](https://github.com/Harlan-ZhangDongXing/React-router-chinese/blob/master/API/API.md#withrouter)  
 
 
 
