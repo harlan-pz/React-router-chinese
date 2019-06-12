@@ -1,4 +1,4 @@
-这部分API文档翻译参考了该项目[react-router-CN](https://github.com/react-translate-team/react-router-CN)
+这部分API文档翻译参考了项目[react-router-CN](https://github.com/react-translate-team/react-router-CN)
 ## < BrowserRouter >
 <Router> 使用HTML5提供的history API(pushState, replaceState和popstate事件)来同步UI和URL。
 ```
