@@ -18,9 +18,9 @@ ReactDOM.render(
 ```
 ### 路由匹配组件
 路由匹配组件有两种：< Route >和< Switch >  
-路由匹配组件通过比较< Router >的path属性和当前页面地址栏的路径来工作。当一个< Router >匹配成功的时候，她会渲染出对应的内容，当匹配不成功的时候，任何内容都不会被渲染出来。当一个< Router >没有path属性时她对任何路径都会匹配成功。  
-你可以在你想要根据浏览器地址来渲染内容的任何地方使用< Router >,但是我们通常会把一组< Router >放在一起。< Switch >就是用来把多个< Router >组合在一起的。  
-我们不是必须要用< Switch >把多个< Router >组合在一起，但是这种做法通常是有用的。 < Switch >将迭代其所有子< Route >元素，并仅渲染与当前路径匹配的第一个子元素。 她对于多个path匹配相同的路径、动画路由之间的转换、没有路径匹配时的识别（这样你就可以渲染“404”组件）是有很大帮助的。  
+路由匹配组件通过比较< Route >的path属性和当前页面地址栏的路径来工作。当一个< Route >匹配成功的时候，她会渲染出对应的内容，当匹配不成功的时候，任何内容都不会被渲染出来。当一个< Route >没有path属性时她对任何路径都会匹配成功。  
+你可以在你想要根据浏览器地址来渲染内容的任何地方使用< Route >,但是我们通常会把一组< Route >放在一起。< Switch >就是用来把多个< Route >组合在一起的。  
+我们不是必须要用< Switch >把多个< Route >组合在一起，但是这种做法通常是有用的。 < Switch >将迭代其所有子< Route >元素，并仅渲染与当前路径匹配的第一个子元素。 她对于多个path匹配相同的路径、动画路由之间的转换、没有路径匹配时的识别（这样你就可以渲染“404”组件）是有很大帮助的。  
 ```
 import { Route, Switch } from "react-router-dom";
 // when location = { pathname: '/about' }
@@ -43,7 +43,7 @@ import { Route, Switch } from "react-router-dom";
 </Switch>
 ```
 ### 路由渲染属性
-对于一个< Router >组件，你可以设置三种属性：component, render, children 来渲染出相应的内容。在这里我们只关注component和render,因为她们是经常会用到的，更多的内容可以查看< Router >的API文档。  
+对于一个< Route >组件，你可以设置三种属性：component, render, children 来渲染出相应的内容。在这里我们只关注component和render,因为她们是经常会用到的，更多的内容可以查看< Route >的API文档。  
   
 当你有一个已存在的组件（无论是一个React组件还是一个无状态的函数组件）想要渲染时应该使用component。当你必须传递一些参数变量给组件时应该用render属性，她采用内联函数的形式。你不应该使用component属性来渲染一个带有参数变量的内联函数组件，这会导致不必要的组件的挂载和卸载。
 ```
