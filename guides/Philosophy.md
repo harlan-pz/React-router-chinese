@@ -11,7 +11,7 @@ app.get("/invoices/:id/edit", handleInvoiceEdit);
 
 app.listen();
 ```
-请注意在应用监听请求之前是如何声明路由的。我们使用的客户端路由与其是相似当。在Angular中，你可以预先声明路由，然后在渲染之前将它们导入顶级AppModule中：
+请注意在应用监听请求之前是如何声明路由的。我们使用的客户端路由与其是相似的。在Angular中，你可以预先声明路由，然后在渲染之前将它们导入顶级AppModule中：
 ```
 // Angular Style routing:
 const appRoutes: Routes = [
